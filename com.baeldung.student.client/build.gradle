@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(":com.baeldung.student.service.dbimpl")
+}
+
+java {
+    modularity.inferModulePath = true
+}

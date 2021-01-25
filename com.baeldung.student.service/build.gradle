@@ -1,0 +1,8 @@
+dependencies {
+    api project(":com.baeldung.student.model")
+//    runtimeOnly project(":com.baeldung.student.model")
+}
+
+java {
+    modularity.inferModulePath = true
+}

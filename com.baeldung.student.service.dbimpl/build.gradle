@@ -1,0 +1,7 @@
+dependencies {
+    api project(":com.baeldung.student.service")
+}
+
+java {
+    modularity.inferModulePath = true
+}

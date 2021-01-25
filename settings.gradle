@@ -1,0 +1,4 @@
+include 'com.baeldung.student.client'
+include 'com.baeldung.student.model'
+include 'com.baeldung.student.service'
+include 'com.baeldung.student.service.dbimpl'
